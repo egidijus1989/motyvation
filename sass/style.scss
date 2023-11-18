@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(to right, #fee5af, #e87f3c) ;
+    vertical-align: middle;
+    #carouselExample{
+        margin: 5%;
+        .carousel-indicators{
+            margin-bottom: 0rem;
+            background-color: #fff;
+        }
+        .carousel-inner{
+            .carousel-item{
+                background-color: #fff;
+                .motyvation{
+                    display: grid;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: center;
+                    margin:5%;
+                    .head{
+                        display: flex;
+                        flex-direction: row;
+                        padding-bottom: 1rem;
+                        h1{
+                            font-size: xx-large;
+                        }
+                        h3{
+                            font-style: italic;
+                            opacity: 0.75;
+                            margin: 0 5% 0 0;
+                        }
+                    }
+                    p{
+                        color: #aaa;
+                        margin: 0 5%;
+                    }
+                    .motSpan{
+                        color: #e87f3c;
+                    }
+                }
+            }
+        }
+        
+    }
+}

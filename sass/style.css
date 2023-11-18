@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to right, #fee5af, #e87f3c);
+  vertical-align: middle;
+}
+body #carouselExample {
+  margin: 5%;
+}
+body #carouselExample .carousel-indicators {
+  margin-bottom: 0rem;
+  background-color: #fff;
+}
+body #carouselExample .carousel-inner .carousel-item {
+  background-color: #fff;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 5%;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation .head {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation .head h1 {
+  font-size: xx-large;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation .head h3 {
+  font-style: italic;
+  opacity: 0.75;
+  margin: 0 5% 0 0;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation p {
+  color: #aaa;
+  margin: 0 5%;
+}
+body #carouselExample .carousel-inner .carousel-item .motyvation .motSpan {
+  color: #e87f3c;
+}/*# sourceMappingURL=style.css.map */
